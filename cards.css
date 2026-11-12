@@ -1,0 +1,41 @@
+#cards{
+    margin: 20px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    background-color:#43543D;
+    margin: 20px;
+    padding: 20px;
+}
+.card {
+    background-color: #F7F3EA;
+    padding: 20px;
+    border: 2px solid #435343;
+    border-radius: 15px;
+}
+.card h2 {
+    color: #435343;
+    margin-bottom: 10px;
+}
+.card h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.card .description {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #555;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.detail{
+    border: 2px solid #698a5d;
+    background-color: #698a5d;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
