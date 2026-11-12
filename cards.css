@@ -5,12 +5,13 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    background-color:#43543D;
+    background-color: #698a5d;
     margin: 20px;
     padding: 20px;
 }
 .card {
     background-color: #F7F3EA;
+    /* background-image: url(Stars.jpeg); */
     padding: 20px;
     border: 2px solid #435343;
     border-radius: 15px;
@@ -23,10 +24,15 @@
     font-size: 25px;
     margin-bottom: 10px;
 }
+.slink{
+    text-decoration: none;
+    color: black;
+}
 .card .description {
     font-size: 15px;
     line-height: 1.5;
     color: #555;
+    background-color: #F7F3EA;
     font-weight: 300;
     margin-bottom: 15px;
 }

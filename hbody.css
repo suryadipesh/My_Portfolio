@@ -2,12 +2,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F7F3EA;
+    background-image: url(White\ crumpled\ paper\ sheet\,\ background\ for\ design\ _\ Premium\ Photo.jpeg);
 }
 .home {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #F7F3EA;
+    /* background-color: #F7F3EA; */
+    /* background-image: url(640566747039050977.jpeg); */
     padding: 50px 130px;
     gap: 50px;
 }
