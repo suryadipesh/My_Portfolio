@@ -6,12 +6,13 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     background-color: #698a5d;
+    background-image: url(Sage.jpeg);
     margin: 20px;
     padding: 20px;
 }
 .card {
     background-color: #F7F3EA;
-    /* background-image: url(Stars.jpeg); */
+    background-image: url(White\ crumpled\ paper\ sheet\,\ background\ for\ design\ _\ Premium\ Photo.jpeg);
     padding: 20px;
     border: 2px solid #435343;
     border-radius: 15px;
@@ -32,13 +33,13 @@
     font-size: 15px;
     line-height: 1.5;
     color: #555;
-    background-color: #F7F3EA;
     font-weight: 300;
     margin-bottom: 15px;
 }
 .detail{
     border: 2px solid #698a5d;
     background-color: #698a5d;
+    /* background-image: url(SageWall.jpeg); */
     height: auto;
     width: auto;
     border-radius: 10px;
