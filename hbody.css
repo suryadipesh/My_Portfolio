@@ -9,6 +9,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 50px 130px;
+    padding-bottom: 0;
     gap: 50px;
 }
 .intro h1 {
@@ -70,4 +71,107 @@ button{
     height: 80%;
     border-radius: 50%;
     object-fit: cover;
+}
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    gap: 40px;
+    /* width: 1000px; */
+    margin-left: 100px;
+    margin-right: 100px;
+    /* border: 2px solid black; */
+    /* border-radius: 25px; */
+    margin: 10px;
+}
+.btn{
+    border: 2px solid wheat;
+    height: 30px;
+    width: 130px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.abt:hover{
+    transform: translateY(-5px);
+    background-color: #43543D;
+    border-color: #43543D;
+    box-shadow: 0px 8px 25px rgba(0,0,1,0.5);
+    color: white;
+    height: 35px;
+    width: 135px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.edu:hover{
+    transform: translateY(-5px);
+    background-color: #43543D;
+    border-color: #43543D;
+    box-shadow: 0px 8px 25px rgba(0,0,1,0.5);
+    color: white;
+    height: 35px;
+    width: 135px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.ski:hover{
+    transform: translateY(-5px);
+    background-color: #43543D;
+    border-color: #43543D;
+    box-shadow: 0px 8px 25px rgba(0,0,1,0.5);
+    height: 35px;
+    width: 135px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.pro:hover{
+    transform: translateY(-5px);
+    background-color: #43543D;
+    border-color: #43543D;
+    box-shadow: 0px 8px 25px rgba(0,0,1,0.5);
+    height: 35px;
+    width: 135px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.hob:hover{
+    transform: translateY(-5px);
+    background-color: #43543D;
+    border-color: #43543D;
+    box-shadow: 0px 8px 25px rgba(0,0,1,0.5);
+    height: 35px;
+    width: 135px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.ach:hover{
+    transform: translateY(-5px);
+    background-color: #43543D;
+    border-color: #43543D;
+    box-shadow: 0px 8px 25px rgba(0,0,1,0.5);
+    height: 35px;
+    width: 135px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.select .btn.active {
+    background-color: #43543D;
+    border-color: #43543D;
+    box-shadow: 0px 8px 25px rgba(0,0,1,0.5);
+    height: 35px;
+    width: 135px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }

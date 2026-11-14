@@ -12,6 +12,8 @@ nav{
     padding-left: 30px;
     position: sticky;
     border-bottom: 1px solid rgb(15, 15, 15);
+    transition: all;
+    transition-duration: 0.5s;
 }
 .name{
     font-weight: 700;
@@ -27,4 +29,18 @@ nav{
 .links a{
     color: #E5E8DB;
     text-decoration: none;
+    position: relative;
+}
+nav a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: tomato;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease;
+}
+nav a:hover::after {
+    width: 100%;
 }

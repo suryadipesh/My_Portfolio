@@ -7,7 +7,9 @@
     gap: 20px;
     background-color: #698a5d;
     background-image: url(Sage.jpeg);
+
     margin: 20px;
+    margin-top: 0px;
     padding: 20px;
 }
 .card {
